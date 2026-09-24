@@ -4,8 +4,8 @@ const SubscriptionContext = createContext();
 
 const TRIAL_DURATION_DAYS = 7;
 const TRIAL_DURATION_MS = TRIAL_DURATION_DAYS * 24 * 60 * 60 * 1000;
-const STORAGE_KEY_TRIAL = 'scanmyqr_trial_start';
-const STORAGE_KEY_LIFETIME = 'scanmyqr_lifetime_pro';
+const STORAGE_KEY_TRIAL = 'Fakhr Almas_trial_start';
+const STORAGE_KEY_LIFETIME = 'Fakhr Almas_lifetime_pro';
 
 export function SubscriptionProvider({ children }) {
   const [trialStartDate, setTrialStartDate] = useState(null);

@@ -477,8 +477,8 @@ function MainApp() {
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 py-8 text-center text-xs text-gray-500 mt-16">
         <div className="max-w-7xl mx-auto px-4 space-y-2">
-          <p className="font-bold text-gray-700">ScanMyQR Pro — Real-time Multi-Link & Universal QR Code Platform</p>
-          <p>© 2026 ScanMyQR. All rights reserved. 7-Day Free Trial & $1 Lifetime Access.</p>
+          <p className="font-bold text-gray-700">Fakhr Almas — Real-time Multi-Link & Universal QR Code Platform</p>
+          <p>© 2026 Fakhr Almas. All rights reserved. 7-Day Free Trial & $1 Lifetime Access.</p>
         </div>
       </footer>
 

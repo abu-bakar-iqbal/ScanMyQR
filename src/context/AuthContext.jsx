@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const AuthContext = createContext();
 
-const STORAGE_KEY_USER = 'scanmyqr_current_user';
+const STORAGE_KEY_USER = 'Fakhr Almas_current_user';
 
 const DEFAULT_USER = {
   id: 'usr_pro_101',

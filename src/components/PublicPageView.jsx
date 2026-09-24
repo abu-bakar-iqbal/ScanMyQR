@@ -36,7 +36,7 @@ export default function PublicPageView() {
           <h2 className="text-2xl font-bold">Invalid QR Code Link</h2>
           <p className="text-sm text-slate-400">The requested QR code payload could not be loaded.</p>
           <a href="/" className="inline-block px-4 py-2 bg-blue-600 rounded-xl font-bold text-xs">
-            Go to ScanMyQR Home
+            Go to Fakhr Almas Home
           </a>
         </div>
       </div>
@@ -155,8 +155,8 @@ export default function PublicPageView() {
                         >
                           <div className="flex items-center gap-3.5">
                             <div
-                              className="w-11 h-11 rounded-full flex items-center justify-center text-white shrink-0 shadow-xs"
-                              style={{ backgroundColor: link.color || '#2563eb' }}
+                              className="w-11 h-11 flex items-center justify-center shrink-0"
+                              
                             >
                               <IconComp className="w-6 h-6" />
                             </div>
@@ -286,7 +286,7 @@ export default function PublicPageView() {
 
             {/* Footer Branding */}
             <div className="p-4 text-center border-t border-slate-100 bg-slate-50 text-[11px] text-gray-400 font-medium">
-              Powered by <span className="font-bold text-blue-600">ScanMyQR Pro</span>
+              Powered by <span className="font-bold text-blue-600">Fakhr Almas</span>
             </div>
 
           </div>

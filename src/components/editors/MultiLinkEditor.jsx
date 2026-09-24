@@ -242,8 +242,8 @@ export default function MultiLinkEditor({ data, onChange }) {
                   <div className="flex items-center justify-between gap-2 mb-3">
                     <div className="flex items-center gap-2">
                       <div
-                        className="w-8 h-8 rounded-lg flex items-center justify-center text-white"
-                        style={{ backgroundColor: link.color || '#2563eb' }}
+                        className="w-8 h-8 flex items-center justify-center"
+                        
                       >
                         <IconComp className="w-4 h-4" />
                       </div>

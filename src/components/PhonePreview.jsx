@@ -154,8 +154,8 @@ export default function PhonePreview({ type = 'multilink', data }) {
                         <div className="flex items-center gap-3">
                           {/* Icon in colored circle */}
                           <div
-                            className="w-10 h-10 rounded-full flex items-center justify-center text-white shrink-0 shadow-xs"
-                            style={{ backgroundColor: link.color || '#2563eb' }}
+                            className="w-10 h-10 flex items-center justify-center shrink-0"
+                            
                           >
                             <IconComp className="w-5 h-5" />
                           </div>

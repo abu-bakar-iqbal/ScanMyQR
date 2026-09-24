@@ -3,8 +3,8 @@ import { useAuth } from './AuthContext';
 
 const QrStorageContext = createContext();
 
-const STORAGE_KEY_QRS = 'scanmyqr_user_qrs_v2';
-const STORAGE_KEY_SCAN_LOGS = 'scanmyqr_scan_logs_v2';
+const STORAGE_KEY_QRS = 'Fakhr Almas_user_qrs_v2';
+const STORAGE_KEY_SCAN_LOGS = 'Fakhr Almas_scan_logs_v2';
 
 export function QrStorageProvider({ children }) {
   const { user } = useAuth();

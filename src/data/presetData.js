@@ -64,7 +64,7 @@ export const SOCIAL_PLATFORMS = [
   {
     id: 'google_review',
     name: 'Google Review',
-    icon: 'Star',
+    icon: 'dot',
     color: '#EA4335',
     bgColor: '#FCE8E6',
     defaultSubtext: 'Give Us a Review',
@@ -161,12 +161,12 @@ export const QR_STYLE_PRESETS = [
   },
   {
     id: 'heart_love',
-    name: 'Heart Romance',
+    name: 'Dot Romance',
     fgColor: '#e11d48',
     bgColor: '#fff1f2',
-    moduleShape: 'heart',
+    moduleShape: 'dot',
     eyeShape: 'rounded',
-    eyeInnerShape: 'heart',
+    eyeInnerShape: 'dot',
     frameColor: '#e11d48',
     frameText: 'FOLLOW US'
   },
@@ -208,9 +208,9 @@ export const QR_STYLE_PRESETS = [
     name: 'Star Magic',
     fgColor: '#d97706',
     bgColor: '#fffbeb',
-    moduleShape: 'star',
+    moduleShape: 'dot',
     eyeShape: 'circle',
-    eyeInnerShape: 'star',
+    eyeInnerShape: 'dot',
     frameColor: '#d97706',
     frameText: 'VIEW PDF'
   }
@@ -264,7 +264,7 @@ export const INITIAL_MULTI_LINK_DATA = {
       title: 'Google Business Review',
       subtext: 'Share Client Feedback',
       url: 'https://g.page/r/apexglobal/review',
-      icon: 'Star',
+      icon: 'dot',
       active: true,
       color: '#EA4335'
     }

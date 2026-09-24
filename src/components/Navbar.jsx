@@ -21,7 +21,7 @@ export default function Navbar({ onOpenScanner, onOpenAnalytics, onOpenBulk, onO
               </div>
               <div>
                 <span className="text-xl font-extrabold bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 bg-clip-text text-transparent">
-                  ScanMyQR
+                  Fakhr Almas
                 </span>
                 <span className="hidden sm:inline-block ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 border border-blue-100">
                   PRO

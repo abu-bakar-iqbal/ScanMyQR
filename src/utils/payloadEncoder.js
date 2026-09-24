@@ -1,6 +1,6 @@
 // Compressed & Short URL Payload Helper for Low-Density Easy-to-Scan QR Codes
 
-const STORAGE_PREFIX = 'scanmyqr_published_';
+const STORAGE_PREFIX = 'Fakhr Almas_published_';
 
 export function savePublishedPage(type, data) {
   const id = 'p_' + Math.random().toString(36).substring(2, 9);

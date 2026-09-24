@@ -5,7 +5,7 @@ export default function StepperNav({ currentStep, onSelectStep }) {
   const steps = [
     { id: 1, title: 'Choose Type', icon: Layers, desc: 'Multi-Link, Media, Map' },
     { id: 2, title: 'Add Content & Files', icon: FileText, desc: 'Links, Photos, Videos' },
-    { id: 3, title: 'Design & Style QR', icon: Palette, desc: 'Dots, Hearts, Colors' },
+    { id: 3, title: 'Design & Style QR', icon: Palette, desc: 'Dots, Shapes, Colors' },
     { id: 4, title: 'Preview & Download', icon: Download, desc: 'High-Res PNG, Link' }
   ];
 
